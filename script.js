@@ -1,4 +1,6 @@
 
+// Function for adding user input to localstorage
+
 function Getupdate() {
     titl = document.getElementById("title").value;
     text = document.getElementById("description").value;
@@ -6,11 +8,15 @@ function Getupdate() {
         itemjsonArr = [];
         itemjsonArr.push([titl, text]);
         localStorage.setItem("itemjson", JSON.stringify(itemjsonArr));
+        document.getElementById("title").value = "";
+        document.getElementById("description").value = "";
     } else {
         itemjsonArrStr = localStorage.getItem("itemjson");
         itemjsonArr = JSON.parse(itemjsonArrStr);
         itemjsonArr.push([titl, text]);
         localStorage.setItem("itemjson", JSON.stringify(itemjsonArr));
+        document.getElementById("title").value = "";
+        document.getElementById("description").value = "";
     }
     update();
 }
