@@ -11,7 +11,7 @@ body::before {
   height: 100%;
   width: 100%;
   position: absolute;
-  background: url(pic4.JPg) repeat-x center center/cover;
+  background: url(pic4.jpg) repeat-x center center/cover;
   /* background:rgb(0, 183, 255); */
   z-index: -1;
   opacity: 0.8;
