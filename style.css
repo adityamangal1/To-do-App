@@ -12,13 +12,12 @@ body::before {
   width: 100%;
   position: absolute;
   background: url(pic4.jpg) repeat-x center center/cover;
-  /* background:rgb(0, 183, 255); */
   z-index: -1;
   opacity: 0.8;
   font-family: "Baloo Tamma 2", cursive;
   height: 350%;
 }
-.aditya {
+.styling {
   margin: 3px auto;
   padding: 6px 18px;
   border: 2px solid black;
@@ -58,59 +57,4 @@ body::before {
   font-family: "Baloo Tamma 2", cursive;
 }
 
-/* h1{
-    border: 2px solid black;
-    background: aquamarine;
-    font-family: 'Baloo Tamma 2', cursive;
-    border-radius: 12px;
-    margin-bottom: 33px;
-    width: 39%;
-} */
 
-.adi {
-  border: 2px solid black;
-  background: aquamarine;
-  font-family: "Baloo Tamma 2", cursive;
-  border-radius: 12px;
-  margin-bottom: 33px;
-  border-radius: 9px;
-  width: 17%;
-  font-size: 25px;
-}
-
-/* input{ */
-/* display: block;
-    padding: 14px;
-    margin: 70px auto;
-    width: 40%;
-    border-radius: 9px;
-    border: 2px solid black;
-    font-family: 'Baloo Tamma 2', cursive;
-    margin-top: 99px;
-} */
-/* 
-body::before{
-    content: "";
-    height: 110%;
-    width: 100%;
-    top: 0px;
-    position: absolute;
-    background: url("pic3.jfif") no-repeat center center/cover;
-    z-index: -1;
-} */
-
-.btn {
-  display: block;
-  margin: 3px auto;
-  padding: 6px 18px;
-  border: 2px solid black;
-  background: aquamarine;
-  font-family: "Baloo Tamma 2", cursive;
-  border-radius: 12px;
-  cursor: pointer;
-  font-size: 17px;
-}
-
-.btn:hover {
-  background: rgb(0, 248, 207);
-}
